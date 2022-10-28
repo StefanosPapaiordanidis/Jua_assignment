@@ -13,6 +13,7 @@ hierarchical index.
 [Anaconda](https://conda.io/projects/conda/en/latest/user-guide/install/download.html)
 -or- [Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/download.html)
 
+While on the project directory, run these commands in the command line to install the environment:\
 `conda env create -f environment.yml`\
 `conda activate jua_project`
 
@@ -22,7 +23,7 @@ You can use the default arguments with:
 `python main.py create_parquet`
 
 or you can set the ones you prefer like so:\
-`python main.py create_parquet timestamp_from 2022-05-05_12:00:00 timestamp_to 2022-05-10_15:00:00 --h3_cell 85754e67fffffff`
+`python main.py create_parquet --timestamp_from 2022-05-05_12:00:00 --timestamp_to 2022-05-10_15:00:00 --h3_cell 85754e67fffffff`
 
 The default arguments are:
 

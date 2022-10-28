@@ -73,8 +73,6 @@ def create_parquet(args):
         columns={'time1': 'Timestamp', 'precipitation_amount_1hour_Accumulation': 'Precipitation'}) \
         .drop(columns=['nv', 'lat', 'lon'])
 
-    print(df_h3_filtered)
-    exit()
     if not os.path.isdir('results'):
         os.makedirs('results')
     df_h3_filtered.to_parquet(os.path.join('results', parquet_file_name))

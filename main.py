@@ -4,8 +4,8 @@ from Functions import create_parquet
 
 if __name__ == '__main__':
     print('Available arguments are: \n '
-          '--timestamp_from (default: "2022-05-01 12:00:00") \n '
-          '--timestamp_to (default: "2022-05-02 12:00:00") \n '
+          '--timestamp_from (default: "2022-05-01 00:00:00") \n '
+          '--timestamp_to (default: "2022-05-31 23:00:00") \n '
           '--h3_cell (default: "85754e67fffffff")')
     main_parser = argparse.ArgumentParser()
     main_subparsers = main_parser.add_subparsers(title='available commands', dest='main_command')

@@ -1,12 +1,16 @@
-name: jua_assignment
+name: jua_project
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - os
-  - datetime
+  - python=3.10
+  - pip
   - pandas
   - boto3
   - botocore
   - xarray
-  - h3
+  - pip:
+      - h3==4.0.0b1
+      - h5netcdf
+      - pyarrow
+      - fastparquet

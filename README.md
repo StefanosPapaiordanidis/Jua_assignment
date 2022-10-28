@@ -14,7 +14,7 @@ hierarchical index.
 -or- [Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/download.html)
 
 `conda env create -f environment.yml`\
-`conda activate jua_assignment`
+`conda activate jua_project`
 
 ## Running
 You can use the default arguments with:

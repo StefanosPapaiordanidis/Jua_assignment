@@ -1,0 +1,12 @@
+name: jua_assignment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - os
+  - datetime
+  - pandas
+  - boto3
+  - botocore
+  - xarray
+  - h3

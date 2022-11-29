@@ -1,4 +1,4 @@
-# Jua Assignment
+# Assignment
 
 ---
 Author: Stefanos Papaiordanidis
